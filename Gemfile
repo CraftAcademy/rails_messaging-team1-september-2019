@@ -24,20 +24,18 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
+  gem 'pry-rails'
 end
 
 group :development do
-  gem 'pry-byebug'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
-
 
 group :production do
   gem 'rails_12factor'
 end
 
-# Fixes
 gem 'loofah', '~> 2.2.1'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'sprockets', '~> 3.7.2'
