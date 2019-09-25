@@ -26,3 +26,22 @@ end
 Then("I should see them assorted by date") do
 
 end
+
+Given("following users exists") do |table|
+
+end
+
+Given("I send a mail to {string}") do |string|
+end
+
+Given("I click on the {string} link") do |string|
+end
+
+Given("I am logged-in as {string}") do |string|
+end
+
+Then("I should have {string} messages") do |string|
+end
+
+Then("I click on the {string} link") do |string|
+end
